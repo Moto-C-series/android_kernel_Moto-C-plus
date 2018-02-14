@@ -818,7 +818,6 @@ void snd_timer_interrupt(struct snd_timer * timer, unsigned long ticks_left)
 }
 
 /*
-
  */
 
 int snd_timer_new(struct snd_card *card, char *id, struct snd_timer_id *tid,
